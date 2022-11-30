@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2022-11-28T14:41:01.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dJzrPEu9lFqDnMja-1SO" version="20.5.3" type="github">
+  <diagram id="5jivWlrncDtXlbKsZ_EI" name="Page-1">
+    <mxGraphModel dx="245" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EmuCnMziaYkEjzVid13U-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EmuCnMziaYkEjzVid13U-24" target="EmuCnMziaYkEjzVid13U-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-24" value="Temperatur-Sensor" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="279" width="159.99999999999977" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EmuCnMziaYkEjzVid13U-24">
+          <mxGeometry y="30" width="159.99999999999977" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-26" value="- Læs/udskriv temperaturen" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="EmuCnMziaYkEjzVid13U-25">
+          <mxGeometry width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-27" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EmuCnMziaYkEjzVid13U-25">
+          <mxGeometry x="120" width="40" height="60" as="geometry">
+            <mxRectangle width="40" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-28" value="Sensor" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="89" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EmuCnMziaYkEjzVid13U-28">
+          <mxGeometry y="30" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-30" value="- Opret/fjern sensor(er) af en bestemt type til et lokale i en bygning" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="EmuCnMziaYkEjzVid13U-29">
+          <mxGeometry width="110" height="120" as="geometry">
+            <mxRectangle width="110" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-31" value="- Bygning, lokale" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EmuCnMziaYkEjzVid13U-29">
+          <mxGeometry x="110" width="110" height="120" as="geometry">
+            <mxRectangle width="110" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-32" value="Aktuator" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="89" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EmuCnMziaYkEjzVid13U-32">
+          <mxGeometry y="30" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-34" value="- Opret/fjern aktuator(er) til et lokale i en bygning&lt;br&gt;- Indstil aktuator(er)&lt;br&gt;- Læs værdien for aktuatoren&lt;br&gt;- Ændre lokalet for aktuatoren" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="EmuCnMziaYkEjzVid13U-33">
+          <mxGeometry width="110" height="140" as="geometry">
+            <mxRectangle width="110" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-35" value="- Bygning, lokale" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EmuCnMziaYkEjzVid13U-33">
+          <mxGeometry x="110" width="110" height="140" as="geometry">
+            <mxRectangle width="110" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EmuCnMziaYkEjzVid13U-36" target="EmuCnMziaYkEjzVid13U-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-36" value="CO2-Sensor" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1261" y="279" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EmuCnMziaYkEjzVid13U-36">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-38" value="- Læs/udskriv CO2-niveauet&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="EmuCnMziaYkEjzVid13U-37">
+          <mxGeometry width="120" height="60" as="geometry">
+            <mxRectangle width="120" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EmuCnMziaYkEjzVid13U-37">
+          <mxGeometry x="120" width="40" height="60" as="geometry">
+            <mxRectangle width="40" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-40" value="Bygning" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="901" y="89" width="219.99999999999977" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EmuCnMziaYkEjzVid13U-40">
+          <mxGeometry y="30" width="219.99999999999977" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-42" value="- Opret/fjern bygning(er)&lt;br&gt;- Opret/fjern lokale(r)&lt;br&gt;- Opret/fjern liste(r) over aktuatorere for enkelte lokaler eller bygninger&lt;br&gt;- Opret/fjern liste(r) over sensorere for enkelte bygninger" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="EmuCnMziaYkEjzVid13U-41">
+          <mxGeometry width="140" height="140" as="geometry">
+            <mxRectangle width="140" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmuCnMziaYkEjzVid13U-43" value="- Sensor&lt;br&gt;- Aktuator" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EmuCnMziaYkEjzVid13U-41">
+          <mxGeometry x="140" width="80" height="140" as="geometry">
+            <mxRectangle width="80" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

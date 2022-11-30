@@ -8,17 +8,20 @@ public class BuildingManagementSystem {
     private static List<Building> buildings; // declaring building list. We can only initialize as List is abstract.
 
     public static void main(String[] args) {
-        buildings = new ArrayList<Building>(); // initializing an instantiation of the building list. It needs to be an ArrayList as List is abstract.
-        UUID townHallId = addBuilding("Town Hall"); // creating a building and saving the UUID return value for later use.
-        System.out.println(getBuildings()); // printing the current state of our building list.
-        removeBuilding(townHallId); // removing a building from our list using our previously saved UUID.
-        System.out.println(getBuildings()); // printing the new state of the building list.
+        buildings = new ArrayList<>(); // initializing an instantiation of the building list. It needs to be an ArrayList as List is abstract.
+        Building townHall = addBuilding("Town Hall"); // creating a building and saving the UUID return value for later use.
+        Building hospital = addBuilding("Hospital"); // creating a building and saving the UUID return value for later use.
+        Actuator windowOpener = townHall.addActuator("Window-Opener");
+        windowOpener.setValue(5.6);
+        Co2Sensor co2Sensor = townHall.addCo2Sensor("Entrance CO2-Sensor");
+        TemperatureSensor tempSensor = townHall.addTemperatureSensor("Entrance Temperature-Sensor");
+        townHall.prettyPrint();
     }
 
-    public static UUID addBuilding(String name){
+    public static Building addBuilding(String name){
         Building building = new Building(name);
         buildings.add(building);
-        return building.getId();
+        return building;
     }
 
     public static void removeBuilding(UUID id){
@@ -31,10 +34,10 @@ public class BuildingManagementSystem {
 
     @Override
     public String toString() {
-        String allBuildings = "";
+        StringBuilder allBuildings = new StringBuilder();
         for (Building building : buildings) {
-            allBuildings += "\n" + building.getName();
+            allBuildings.append("\n").append(building.getName());
         }
-        return allBuildings;
+        return allBuildings.toString();
     }
 }

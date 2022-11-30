@@ -2,8 +2,8 @@ package org.tnd;
 import java.util.UUID;
 
 public class Unit {
-    protected static String name;
-    protected static UUID id;
+    protected String name;
+    protected UUID id;
 
     public Unit(){
         id = UUID.randomUUID();

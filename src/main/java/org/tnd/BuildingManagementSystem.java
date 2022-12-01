@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class BuildingManagementSystem {
+public class BuildingManagementSystem implements IBuildingManagementSystem {
     private static List<Building> buildings; // declaring building list. We can only initialize as List is abstract.
 
     public static void main(String[] args) {

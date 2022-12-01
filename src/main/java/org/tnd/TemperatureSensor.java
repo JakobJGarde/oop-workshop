@@ -11,6 +11,6 @@ public class TemperatureSensor extends Sensor {
     }
 
     public String toString(){
-        return "name: " + getName() + " | id: " + getId() + " | temperature: " + getValue();
+        return "name: " + getName() + " | temperature: " + getValue();
     }
 }

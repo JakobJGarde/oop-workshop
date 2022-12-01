@@ -11,6 +11,6 @@ public class Co2Sensor extends Sensor {
     }
 
     public String toString(){
-        return "name: " + getName() + " | id: " + getId() + " | CO2-level: " + getValue() + " PPM";
+        return "name: " + getName() + " | CO2-level: " + getValue() + " PPM";
     }
 }

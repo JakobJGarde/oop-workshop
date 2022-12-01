@@ -14,12 +14,18 @@ public class Building extends Unit {
         this.name = name;
     }
 
-    public List<Sensor> getSensors(){
-        return this.sensors;
+    public void getSensors(){
+        System.out.println("List of sensors for " + getName() + ":");
+        for (Sensor sensor : sensors){
+            System.out.println("  " + sensor);
+        }
     }
 
-    public List<Actuator> getActuators(){
-        return actuators;
+    public void getActuators(){
+        System.out.println("List of actuators for " + getName() + ":");
+        for (Actuator actuator : actuators){
+            System.out.println("  " + actuator);
+        }
     }
 
     public TemperatureSensor addTemperatureSensor(String name){
@@ -50,15 +56,8 @@ public class Building extends Unit {
     }
 
     public void prettyPrint(){
-        System.out.println(getId());
-        System.out.println(getName());
-        System.out.println("Actuators:");
-        for (Actuator actuator : getActuators()) {
-            System.out.println("  " + actuator);
-        }
-        System.out.println("Sensors:");
-        for (Sensor sensor : getSensors()) {
-            System.out.println("  " + sensor);
-        }
+        System.out.println("Building Name: " + getName());
+        getActuators();
+        getSensors();
     }
 }

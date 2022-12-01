@@ -16,6 +16,6 @@ public class Actuator extends Unit {
     }
 
     public String toString(){
-        return "name: " + getName() + " | id: " + getId() + " | actuator-level: " + getValue();
+        return "name: " + getName() + " | actuator-level: " + getValue();
     }
 }
